@@ -1,28 +1,4 @@
 ```
-# Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
-*.out
-
-# Dependencies
-matlab/
-octave/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# API response data files
+api_response_data_*.json
 ```
