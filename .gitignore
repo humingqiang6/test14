@@ -1,1 +1,7 @@
-Nothing should be ignored in this case, as the only added file is a source code file (.cs) without any build artifacts, dependencies, or temporary files in the changes.
+```
+# R-specific ignores
+*.RData
+*.Rhistory
+.Rproj.user/
+.Rprofile
+```
