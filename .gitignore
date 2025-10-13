@@ -1,1 +1,9 @@
-Nothing to output - the change list contains only a source code file (.php) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Temp files
+temp_*.txt
+```
