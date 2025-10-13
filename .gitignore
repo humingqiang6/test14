@@ -1,21 +1,27 @@
-```gitignore
-# PowerShell and shell script artifacts
-*.ps1xml
-*.psc1
-*.psd1
-*.sh~
+```
+# Dependencies and build artifacts
+zig-linux-x86_64-0.13.0/
+
+# Binary files
+*.bin
+
+# Archives
+*.tar.xz
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
