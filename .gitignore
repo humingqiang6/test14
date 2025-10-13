@@ -1,1 +1,40 @@
-Nothing should be ignored based on the provided file changes. The added file 'login-form-3b1a.vue' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+target/
+.libs/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# MyPy cache
+.mypy_cache/
+
+# PyTest cache
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
