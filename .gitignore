@@ -1,1 +1,27 @@
-Nothing should be ignored based on the provided file changes. The added file `func_sum_12345.js` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+target/
+.libs/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.idea/
+*.swp
+*.swo
+
+# Scala specific
+*.tasty
+*.jar
+lib_managed/
+src_managed/
+```
