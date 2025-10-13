@@ -1,10 +1,17 @@
 ```
-# Backup and temp files
-*backup*
-*.tmp
-*.swp
-*.swo
+# Puppet related
+*.pp.bak
+*.rb.bak
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
