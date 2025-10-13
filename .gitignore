@@ -1,36 +1,4 @@
-```
-# Chef/Ruby specific
-Berksfile.lock
-Gemfile.lock
-.kitchen/
-.delivery/
-.chef/
-cookbooks/
-roles/
-data_bags/
-environments/
-
-# Dependencies
-.bundle/
-vendor/bundle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
+```toml
+# Configuration files
+config_*.toml
 ```
