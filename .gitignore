@@ -1,4 +1,1 @@
-```
-# Configuration files
-*.xml
-```
+Nothing should be ignored since only a source code file (.ml) was added.
