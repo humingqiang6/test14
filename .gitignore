@@ -1,15 +1,1 @@
-```
-# Dependencies
-node_modules/
-
-# Environment
-.env
-.env.
-.env.local
-
-# Logs
-*.log
-
-# Package manager
-package-lock.json
-```
+Nothing should be ignored based on the provided file changes. The only added file is `mergeLists.hs` which is a source code file and should not be ignored.
