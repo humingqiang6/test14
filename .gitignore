@@ -1,15 +1,18 @@
 ```
-# LaTeX build artifacts
-*.aux
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# JavaScript build artifacts
+*.js.map
+*.min.js
+*.bundle.js
+
+# General temp files
+tmp.*/
+tmp.*
+
+# Logs
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
 ```
