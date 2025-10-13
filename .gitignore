@@ -1,20 +1,7 @@
 ```
-# Compiled files
-*.o
-*.obj
-*.out
+# Temporary shell scripts
+*.sh
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# Process-specific temporary files
+*_[0-9]*.sh
 ```
