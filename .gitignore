@@ -1,6 +1,13 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Executable files
+sort_array_2357
 ```
