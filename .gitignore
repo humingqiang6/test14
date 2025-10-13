@@ -1,1 +1,8 @@
-Nothing should be ignored in this case, as the only added file is a source code file (.cs) without any build artifacts, dependencies, or temporary files in the changes.
+```
+# Kubernetes and deployment
+*.yaml
+*.yml
+
+# If this is a Kubernetes project, you might want to ignore other common files
+# but based on the changes shown, only ignoring the added yaml file
+```
