@@ -1,76 +1,62 @@
 ```
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.RData
+*.Rds
+*.rds
+*.Rda
+*.rda
+*.Rdump
+*.rdump
+*.Rout
+*.rout
+*.Rout.fail
+*.rout.fail
+*.Rapp.history
+*.rapp.history
+*.Renviron
+*.renviron
+*.Rprofile
+*.rprofile
+*.Rbuildignore
+*.rbuildignore
+*.Rinstignore
+*.rinstignore
+*.Rproj
+*.rproj
+*.Rproj.user/
+*.rproj.user/
+
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
-*.obj
-*.class
-*.exe
-*.dll
 *.so
+*.dll
+*.dylib
 *.a
+*.lib
+*.obj
 *.out
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+lib/
+libs/
+inst/lib/
+inst/libs/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
-.vscode/
-.idea/
+.Rproj.user/
+.Rhistory
+.RData
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
