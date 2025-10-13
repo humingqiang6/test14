@@ -1,36 +1,43 @@
 ```
-# Chef/Ruby specific
-Berksfile.lock
-Gemfile.lock
-.kitchen/
-.delivery/
-.chef/
-cookbooks/
-roles/
-data_bags/
-environments/
+# Compiled and build artifacts
+*.css.map
+*.css.gz
+*.css.br
 
-# Dependencies
-.bundle/
-vendor/bundle/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
+*.temp
+
+# Editor/IDE files
+.vscode/
+.idea/
 *.swp
+*.swo
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# OS
-.DS_Store
-Thumbs.db
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+julia-*/
+zig*/
 ```
