@@ -1,31 +1,14 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.vvp
-*.bin
-*.out
-*.obj
-*.o
-
-# Dependencies
-lib/
-deps/
-build/
-target/
-
-# Logs and temp files
-*.log
+#Temp files
 *.tmp
 *.swp
+*.swo
 
-# Editors
-.vscode/
-.idea/
+#JavaScript/Node
+node_modules/
+*.js.map
+*.min.js
 
-# Simulation and synthesis tools
-sim/
-syn/
-work/
-*.fst
-*.ghw
+#Temp function files
+temp_func_*.js
 ```
