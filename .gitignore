@@ -1,18 +1,31 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Other files and folders
-.settings/
+# Dependencies
+.Packages/
+.build/
+DerivedData/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
