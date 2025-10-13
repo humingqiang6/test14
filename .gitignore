@@ -1,13 +1,1 @@
-```
-# Data files
-*.csv
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+Nothing needs to be added to .gitignore for this change list. The added file `check_disk_usage.sh` is a shell script source file that should be tracked in version control.
