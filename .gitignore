@@ -1,40 +1,21 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.fst
-*.vvp
-*.bin
-*.hex
-*.out
+# Executable files
+find_max
 
-# Dependencies
-*.lib
-*.so
-*.a
-*.dll
-*.dylib
+# Text files (likely output/result files)
+*.txt
+!*.txt  # Keep all .txt files unless specifically ignored below
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.bak
+# Keep source code
+!find_max.cpp
+```
 
-# Simulation and synthesis tools
-*.pb
-*.sr
-*.sdf
-*.sdc
-*.sco
-*.mr
+Wait, let me reconsider. The `max_result_88086.txt` appears to be an output/result file that should be ignored, but `find_max.cpp` is source code that should be kept. The `find_max` appears to be an executable that should be ignored.
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+```
+# Executable files
+find_max
 
-# System files
-.DS_Store
-Thumbs.db
+# Generated result files
+max_result_*.txt
 ```
