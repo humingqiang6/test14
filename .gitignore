@@ -1,3 +1,16 @@
-(dot_product.f is a source file, so no ignores needed)
+```
+# VBA files
+*.vba
 
-(empty output)
+# Backup and temporary VBA files
+*.bak
+*.tmp
+*.~*
+*~
+```
+
+Wait, I need to reconsider. The file `7a663482d8a1f0bb.vba` appears to be a source code file (VBA file), not a build artifact or temporary file. Following rule #7, I should not ignore source code files unless they are clearly generated or sensitive. Since this appears to be a regular VBA source file, it should not be ignored.
+
+```
+
+```
