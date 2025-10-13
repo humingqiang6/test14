@@ -1,41 +1,74 @@
 ```
 # Compiled and build artifacts
-*.fsx
-*.fsi
-*.dll
-*.exe
-*.pdb
-*.optdata
+*.pyc
+__pycache__/
+*.class
+*.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-.paket/
-.packages/
-bin/
-obj/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
+*.swo
 
 # Editors
 .vscode/
 .idea/
-*.userprefs
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
-ehthumbs.db
-Icon?
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+.mypy_cache/
+.pytest_cache/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
