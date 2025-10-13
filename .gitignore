@@ -1,41 +1,15 @@
 ```
-# Compiled and build artifacts
-*.fsx
-*.fsi
-*.dll
-*.exe
-*.pdb
-*.optdata
-*.obj
-
-# Dependencies
-.paket/
-.packages/
-bin/
-obj/
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.userprefs
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# OS generated files
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Icon?
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
