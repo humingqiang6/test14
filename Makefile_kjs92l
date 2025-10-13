@@ -1,0 +1,40 @@
+# Define the compiler and flags
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++17
+
+# Define the executable name
+TARGET = my_program
+
+# Define the source files
+SOURCES = main.cpp
+
+# Define the object files
+OBJECTS = $(SOURCES:.cpp=.o)
+
+# Default target
+all: $(TARGET)
+
+# Link the executable
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(TARGET)
+
+# Compile source files into object files
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Build target
+build: $(TARGET)
+	@echo "Build complete."
+
+# Test target (example, assumes a test executable named 'test')
+test:
+	@echo "Running tests..."
+	./test || echo "No test suite found or tests failed."
+
+# Clean target
+clean:
+	rm -f $(OBJECTS) $(TARGET)
+	@echo "Clean complete."
+
+# Phony targets
+.PHONY: all build test clean
