@@ -1,40 +1,5 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-
-# Dependencies
-.venv/
-venv/
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-*.egg
-
-# Python specific
-*.py[cod]
-*$py.class
-*.so
-.Python
+# Data files
+*.csv
+*.sql
 ```
