@@ -1,46 +1,18 @@
 ```
 # Compiled and build artifacts
-*.class
 *.o
 *.obj
 *.out
 
-# Dependencies
-lib/
-target/
-build/
+# Executables
+find_max
 
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Package management
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
 ```
