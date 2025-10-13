@@ -1,20 +1,3 @@
-```
-# PowerShell/Windows specific
-*.tmp
-*.log
-Thumbs.db
+(filter_closure_5.groovy is a source code file, so no .gitignore rules needed)
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-```
+Nothing to output.
