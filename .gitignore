@@ -1,1 +1,10 @@
-Nothing should be ignored in this case. The added files (`create_hello_func.py` and `jtv0sfhu0r.py`) are Python source code files, which should be tracked by Git. There are no build artifacts, dependencies, or temporary files in the change list that would warrant adding ignore rules.
+```
+# R plots and generated images
+Rplots.pdf
+*.png
+
+# R related
+.Rproj.user/
+.Rhistory
+.Rdata
+```
