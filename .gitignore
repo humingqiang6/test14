@@ -1,13 +1,4 @@
 ```
-# VBA/Office files
-*.vba
-*.bas
-*.cls
-*.frm
-*.vbp
-*.ds_store
-Thumbs.db
-
 # Compiled and build artifacts
 *.pyc
 __pycache__/
@@ -23,12 +14,12 @@ __pycache__/
 .venv/
 venv/
 node_modules/
+.mypy_cache/
+.pytest_cache/
 dist/
 build/
 target/
 .gradle/
-.mypy_cache/
-.pytest_cache/
 
 # Logs and temp files
 *.log
@@ -39,7 +30,7 @@ target/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
