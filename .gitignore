@@ -1,10 +1,14 @@
 ```
-# R plots and generated images
-Rplots.pdf
-*.png
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+find_max
 
-# R related
-.Rproj.user/
-.Rhistory
-.Rdata
+# Logs and temp files
+*.tmp
+*.log
+
+# Output files
+output_*.txt
 ```
