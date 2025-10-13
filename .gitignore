@@ -1,1 +1,28 @@
-Nothing should be ignored in this case, as the added file is a Python source file (.py) which is source code that should be tracked in version control. The change list contains only a source file and no build artifacts, dependencies, or temporary files that would require ignoring.
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+matlab/
+octave/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
