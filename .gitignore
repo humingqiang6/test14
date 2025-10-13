@@ -1,39 +1,40 @@
 ```
-# Environment files
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
+
+# Dependencies
+.stack-work/
+.cabal-sandbox/
+dist/
+dist-newstyle/
+node_modules/
+venv/
+.venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 .env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Editor/IDE files
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Build directories
-dist/
-build/
-*.egg-info/
-
-# Dependencies
-.venv/
-venv/
-env/
-.ENV/
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
 
 # OS generated files
 .DS_Store
