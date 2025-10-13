@@ -1,1 +1,20 @@
-Nothing should be ignored in this case, as the only added file is a source code file (.cs) without any build artifacts, dependencies, or temporary files in the changes.
+```
+# PowerShell/Windows specific
+*.tmp
+*.log
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+```
