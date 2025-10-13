@@ -1,21 +1,4 @@
-```gitignore
-# PowerShell and script files
-*.ps1
-*.tmp
-*.log
-
-# Environment and config
-.env
-.env.local
-*.env.*
-
-# Editors and IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+```
+# Generated from file changes
+*.json
 ```
