@@ -1,4 +1,1 @@
-```
-# API response data files
-api_response_data_*.json
-```
+Nothing should be ignored based on the provided file changes. The added file 'Makefile_demo' is a source/config file and should not be added to .gitignore.
