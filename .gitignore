@@ -1,13 +1,21 @@
-```
-# Data files
-*.csv
+```gitignore
+# PowerShell and shell script artifacts
+*.ps1xml
+*.psc1
+*.psd1
+*.sh~
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
