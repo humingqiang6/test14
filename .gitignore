@@ -2,22 +2,21 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.out
+*.hi
+*.dyn_o
 
 # Dependencies
-.crystal/
-lib/
-deps/
+.stack-work/
+dist/
+dist-newstyle/
+cabal-dev/
+.cabal-sandbox/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
@@ -25,7 +24,15 @@ deps/
 *.swp
 *.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.prof
+*.vix
 ```
