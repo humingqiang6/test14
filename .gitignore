@@ -1,43 +1,4 @@
 ```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.Rdata
-*.RData
-*.rds
-*.Rds
-*.rdx
-*.rdx
-*.o
-*.so
-*.dll
-*.dylib
-*.tar.gz
-
-# Dependencies
-lib/
-libs/
-inst/lib/
-
-# Build artifacts
-src/*.o
-src/*.so
-src/*.dll
-src/*.dylib
-
-# R packages cache
-.Rpackages
-renv/
-packrat/
-
-# Temporary files
-*.tmp
-*.temp
-*~
-```
-
-Wait, let me reconsider. The only file added is `summary_stats.R`, which is a source file. There are no build artifacts, dependency directories, or temporary files in the change list that would warrant adding to .gitignore based on the rules provided.
-
-```
-
+# Compiled and build artifacts
+*.fs
 ```
