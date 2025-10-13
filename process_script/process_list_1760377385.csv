@@ -1,0 +1,10 @@
+PID,PPID,USER,%CPU,%MEM,COMMAND
+1,0,root,0.0,0.6,sudo
+2,1,root,0.0,0.0,sudo
+3,2,root,13.8,58.1,python
+28,1,root,0.2,0.7,tmux:
+37,28,root,0.0,0.6,bash
+238,37,root,0.0,0.5,get_processes.s
+240,238,root,0.0,0.7,ps
+241,238,root,0.0,0.1,sed
+242,238,root,0.0,0.0,get_processes.s
