@@ -1,1 +1,32 @@
-(book_data.json is a data file, not a build artifact, dependency, or temp file - it should not be ignored)
+```
+# Erlang/OTP crash dump
+erl_crash.dump
+
+# Compiled and build artifacts
+*.beam
+*.app
+*.appup
+*.rel
+ebin/
+_build/
+rebar3
+
+# Dependencies
+deps/
+.erlang.cookie
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
