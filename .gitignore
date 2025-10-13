@@ -1,1 +1,46 @@
-Nothing should be ignored since the added file `user_definition_and_save.rs` is a source code file (.rs extension) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Shader files (if this is a graphics project)
+*.fs
+*.vs
+*.frag
+*.vert
+*.glsl
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
