@@ -1,14 +1,10 @@
 ```
-# Temporary and generated shell scripts
-*_info_*.sh
-
-# Logs and temp files
-*.log
+# Backup and temp files
+*backup*
 *.tmp
 *.swp
+*.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# Logs
+*.log
 ```
