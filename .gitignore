@@ -1,49 +1,31 @@
 ```
-# Compiled files
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.o
+# Compiled and build artifacts
+*.vcd
+*.vvp
+*.bin
 *.out
+*.obj
+*.o
 
 # Dependencies
-packages/
 lib/
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-
-# Build artifacts
-bin/
-obj/
-Debug/
-Release/
+deps/
 build/
-dist/
 target/
 
 # Logs and temp files
 *.log
 *.tmp
-*.temp
-*.cache
-
-# Environment
-.env
-.env.local
-.env.*
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Simulation and synthesis tools
+sim/
+syn/
+work/
+*.fst
+*.ghw
 ```
