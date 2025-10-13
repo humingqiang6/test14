@@ -1,3 +1,43 @@
-(image_processor.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Dependencies
+node_modules/
 
-(empty - output nothing)
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# System
+.DS_Store
+Thumbs.db
+
+# Testing
+.nyc_output/
+coverage/
+htmlcov/
+
+# Vite specific
+!.vite/
+.vite/
+```
