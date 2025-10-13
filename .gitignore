@@ -1,15 +1,1 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
-```
+Nothing should be ignored since the added file 'addition.asm' is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
