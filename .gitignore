@@ -1,1 +1,40 @@
-Nothing to output - the added file 'focusDirective.vue' is a source code file and should not be ignored.
+```
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.o
+*.a
+*.dylib
+*.framework
+
+# Dependencies
+Pods/
+Carthage/
+vendor/
+
+# Build directories
+build/
+*.build/
+DerivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.xcodeproj/
+.xcworkspace/
+.playground/
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+```
