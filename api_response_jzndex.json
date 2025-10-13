@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 5913,
+      "name": "Liam Rodriguez",
+      "email": "liam.rodriguez@test.org",
+      "age": 32,
+      "active": false
+    },
+    {
+      "id": 9193,
+      "name": "Ava Smith",
+      "email": "ava.smith@demo.net",
+      "age": 36,
+      "active": false
+    },
+    {
+      "id": 4784,
+      "name": "Emma Davis",
+      "email": "emma.davis@demo.net",
+      "age": 46,
+      "active": true
+    },
+    {
+      "id": 1612,
+      "name": "James Jones",
+      "email": "james.jones@demo.net",
+      "age": 52,
+      "active": true
+    },
+    {
+      "id": 1178,
+      "name": "Emma Martinez",
+      "email": "emma.martinez@test.org",
+      "age": 56,
+      "active": false
+    }
+  ],
+  "total": 5
+}
