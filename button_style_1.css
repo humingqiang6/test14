@@ -1,0 +1,28 @@
+/* CSS-код для стилизации кнопки с тенью */
+
+.styled-button {
+  /* Основные размеры и внутренние отступы */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 8px; /* Скругленные углы */
+  cursor: pointer;
+  color: white; /* Цвет текста */
+  background-color: #007bff; /* Цвет фона кнопки */
+
+  /* Свойства тени */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Основная тень */
+  transition: box-shadow 0.3s ease; /* Плавный переход для тени */
+}
+
+/* Изменение тени при наведении */
+.styled-button:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Более глубокая тень при наведении */
+}
+
+/* Изменение тени при нажатии */
+.styled-button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Меньшая тень при нажатии */
+}
