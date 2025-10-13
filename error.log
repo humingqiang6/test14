@@ -1,0 +1,8 @@
+[2023-10-12 08:15:22] INFO: System started
+[2023-10-12 08:16:01] ERROR: Database connection failed
+[2023-10-12 08:17:44] WARNING: High memory usage
+[2023-10-12 08:18:01] ERROR: File not found: /tmp/data.txt
+[2023-10-12 08:19:33] INFO: User login successful
+[2023-10-12 08:20:01] ERROR: Database connection failed
+[2023-10-12 08:21:11] ERROR: Permission denied
+[2023-10-12 08:22:00] INFO: System shutdown
