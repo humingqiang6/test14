@@ -1,6 +1,45 @@
-The added file `list_files_6f3b1a.sh` is a shell script file, which is a source code file and should not be ignored according to the rules (shell scripts are not build artifacts, dependencies, or temporary files).
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-Since there are no build artifacts, dependency directories, temporary files, or other ignorable items in the change list, the output should be empty.
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-```(empty)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Python
+*.pyc
+__pycache__/
+.Python
+*.so
+.Pytest_cache/
+.mypy_cache/
 ```
