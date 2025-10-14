@@ -1,16 +1,14 @@
 ```
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
 
 # Dependencies
+lib/
 target/
-Cargo.lock
+build/
 
 # Logs and temp files
 *.log
