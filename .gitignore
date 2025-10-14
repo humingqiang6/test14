@@ -1,18 +1,34 @@
 ```
-# Temp files
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-# JavaScript build artifacts
-*.js.map
-*.min.js
-*.bundle.js
+# Environment
+.env
+.env.local
+*.env.*
 
-# General temp files
-tmp.*/
-tmp.*
+# Editors
+.vscode/
+.idea/
 
-# Logs
-*.log
+# System files
+.DS_Store
+Thumbs.db
 ```
