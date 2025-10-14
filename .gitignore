@@ -1,24 +1,14 @@
 ```
-# Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
-*.out
-
-# Dependencies
-matlab/
-octave/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
+*.temp
 
-# Editors
+# Lua specific
+*.lua~
+
+# Editor/IDE files
+*.swp
+*.swo
 .vscode/
 .idea/
 
