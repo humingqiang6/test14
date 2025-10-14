@@ -4,10 +4,12 @@
 __pycache__/
 *.o
 *.obj
+dist/
+build/
 *.class
-*.exe
-*.dll
 *.so
+*.dll
+*.exe
 *.a
 *.out
 
@@ -38,15 +40,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
 # Python specific
-*.pyc
-__pycache__/
 .mypy_cache/
 .pytest_cache/
 
@@ -73,4 +67,45 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Java/Maven/Gradle
+target/
+.gradle/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# C/C++
+*.i
+*.ii
+*.s
+*.su
+
+# Go
+*.out
+*.prof
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+
+# Rust
+target/
+
+# Julia
+julia-*/
+
+# Zig
+zig*/
+
+# Other common build directories
+out/
+bin/
+obj/
+lib/
+tmp/
+temp/
 ```
