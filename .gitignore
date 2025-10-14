@@ -1,1 +1,35 @@
-Nothing should be ignored based on the provided file changes. The added file 'MyButtonComponent.vue' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.swo
+*.swp
+
+# Dependencies
+Pods/
+Carthage/
+.xcassets/
+*.xcassets/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# iOS specific
+*.ipa
+*.app
+*.dSYM/
+build/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+```
