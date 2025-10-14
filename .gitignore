@@ -1,14 +1,33 @@
 ```
-# Temporary and generated shell scripts
-*_info_*.sh
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.swo
+*.swp
+
+# Dependencies
+Pods/
+Carthage/
+.swift-version
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# iOS/Mac specific
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+build/
 ```
