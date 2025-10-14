@@ -1,42 +1,36 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sib~
-*.d
-*.o
-*.a
-*.dylib
-*.so
+# HTML files that might be generated
+*.html
 
-# Dependencies
-Pods/
-Carthage/
-.swiftlint.yml
-.packages/
-
-# Build directories
-build/
-DerivedData/
-*.build/
-*.app/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 *.swp
 
-# Environment
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
-.env.
+*.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+
+# Build directories
+dist/
+build/
+target/
 
 # OS generated files
 .DS_Store
