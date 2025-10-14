@@ -1,3 +1,40 @@
-(todo_list_5a7b2c9d.md is just a markdown file, which is source content that should not be ignored)
+```
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.o
+*.obj
+*.exe
+*.so
+*.dll
+*.a
 
-(empty - output nothing)
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
+
+# Dependencies
+.opam/
+.dune/
+esy.lock/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
