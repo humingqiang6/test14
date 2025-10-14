@@ -1,7 +1,4 @@
 ```
-# Build system
-Makefile
-
 # Dependencies
 node_modules/
 .venv/
@@ -17,11 +14,11 @@ target/
 *.pyc
 *.class
 *.o
-*.obj
 *.exe
 *.dll
 *.so
 *.a
+*.obj
 *.out
 
 # Logs and temp files
@@ -41,18 +38,16 @@ target/
 *.swp
 *.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 
-# Testing
-.coverage
+# Coverage
 coverage/
 htmlcov/
-.pytest_cache/
-.mypy_cache/
+.coverage
 
-# Archives
+# Compressed files
 *.zip
 *.gz
 *.tar
