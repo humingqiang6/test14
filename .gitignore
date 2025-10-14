@@ -1,4 +1,1 @@
-```
-# PowerShell/Windows specific
-*.ps1
-```
+Nothing to output - the added file 'square_fn.fs' is a source code file (.fs extension typically indicates F# source code) and there are no build artifacts, dependencies, or temporary files in the changes that require ignoring.
