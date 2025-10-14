@@ -1,15 +1,5 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+(api_call_script_dcffd23c.py and generate_api_script.py are Python source files, which should not be ignored according to rule 7. The change list contains only source files and no build artifacts, dependencies, or temp files, so following rule 6, output nothing.)
+
+```python
+
 ```
