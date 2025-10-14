@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided file changes. The added files are a Python script and a text file, which are source/config files that should not be ignored.
+```
+app_config.xml
+```
