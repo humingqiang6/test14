@@ -1,13 +1,3 @@
-```
-# Data files
-*.csv
+(config_5072.xml is a config file, so it should not be ignored)
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+(empty — output nothing)
