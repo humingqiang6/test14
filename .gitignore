@@ -1,5 +1,27 @@
-(api_call_script_dcffd23c.py and generate_api_script.py are Python source files, which should not be ignored according to rule 7. The change list contains only source files and no build artifacts, dependencies, or temp files, so following rule 6, output nothing.)
+```
+# Jenkins artifacts
+builds/
+lastSuccessfulBuild/
+lastFailedBuild/
+lastStableBuild/
+lastUnstableBuild/
+lastUnsuccessfulBuild/
+workspace/
+*.log
 
-```python
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
 
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.env.*
 ```
