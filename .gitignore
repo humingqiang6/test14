@@ -1,1 +1,54 @@
-Nothing should be ignored based on the provided file changes. The added file 'puppet_network_type.rb' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.fsi
+*.fsx~
+*.fsscript
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Dependencies
+.paket/
+.packages/
+bin/
+obj/
+out/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.userprefs
+*.userosscache
+*.suo
+*.user
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
