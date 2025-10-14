@@ -1,34 +1,39 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# SQL build artifacts
+*.sql.log
+*.sql.out
+*.sql.tmp
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
+# Logs and temp files
+*.log
+*.tmp
+*.out
+
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Dependencies and build directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+*.coverage
 ```
