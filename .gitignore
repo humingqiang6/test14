@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes, as only a README file was added and no build artifacts, dependencies, or temporary files are present.
+Nothing should be ignored since only a Perl source file (.pl) was added, which is a source code file and not a build artifact, dependency, or temporary file.
