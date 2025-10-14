@@ -1,31 +1,4 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.vvp
-*.bin
-*.out
-*.obj
-*.o
-
-# Dependencies
-lib/
-deps/
-build/
-target/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Simulation and synthesis tools
-sim/
-syn/
-work/
-*.fst
-*.ghw
+# Build system
+*.mk
 ```
