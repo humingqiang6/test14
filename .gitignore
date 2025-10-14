@@ -1,1 +1,29 @@
-Nothing should be ignored based on the provided file changes. The added file 'CounterComponent.vue' is a source code file that should be tracked in version control.
+```
+# Zig build artifacts
+zig_project/zig-out/
+zig_project/build/
+zig_project/*.o
+zig_project/*.obj
+
+# Dependencies
+zig_project/deps/
+zig_project/lib/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
