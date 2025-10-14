@@ -1,12 +1,10 @@
 ```
-# Compiled and build artifacts
+# Database files
+*.db
+
+# Python compiled files
 *.pyc
 __pycache__/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
 
 # Logs and temp files
 *.log
@@ -22,13 +20,15 @@ node_modules/
 .vscode/
 .idea/
 
-# Coverage
-.coverage
+# Coverage reports
 coverage/
 htmlcov/
+.coverage
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
+# Dependency directories
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
 ```
