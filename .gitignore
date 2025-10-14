@@ -1,12 +1,17 @@
 ```
 # Compiled and build artifacts
-*.beam
 *.o
 *.obj
+*.mod
+*.smod
+*.exe
 
 # Dependencies
-ebin/
-deps/
+build/
+dist/
+*.so
+*.dll
+*.a
 
 # Logs and temp files
 *.log
@@ -20,5 +25,14 @@ deps/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
