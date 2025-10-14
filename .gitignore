@@ -1,43 +1,17 @@
 ```
 # Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.out
-build/
-dist/
-
-# Dependencies
-.gradle/
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
+*.pl~
 
 # Logs and temp files
-*.log
 *.tmp
-*.swp
+*.log
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
 # Environment
 .env
 .env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Output directories
-output/
+.env.*
 ```
