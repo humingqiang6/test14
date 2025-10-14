@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided file changes. The added file `login_form_1.vue` is a source code file that should be tracked in version control.
+```r
+# R-specific build artifacts
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
+.Rapp.history
+.Rbuildignore
+
+# Dependencies and packages
+library/
+lib/
+.libs/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+```
