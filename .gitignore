@@ -1,1 +1,196 @@
-Nothing should be ignored since the change list contains only a source code file (.swift) and no build artifacts, dependencies, or temp files.
+```
+# Dependencies
+node_modules/
+julia-*/
+zig*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+target/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+
+# Package lock files
+package-lock.json
+.yarn/
+.pnp.*
+.pnp.js
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.pytest_cache/
+.mypy_cache/
+
+# TypeScript/JavaScript
+*.tsbuildinfo
+*.js.map
+*.jsx.map
+*.ts.map
+
+# Angular specific
+.angular/
+dist/
+tmp/
+.ng/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nfs
+*~
+.#*
+.~lock*
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# IDE files
+*.swp
+*.swo
+
+# Package manager caches
+.npm/
+.yarn/
+.bower/
+.jspm/
+
+# Testing
+*.log
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Security
+.secret
+.secrets
+
+# Cache directories
+.cache/
+.caches/
+
+# Lock files
+*.lock
+
+# Temporary directories
+tmp/
+temp/
+
+# Build output
+dist/
+build/
+out/
+output/
+public/
+
+# Database
+*.db
+*.db.*
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*~
+.#*
+.~lock*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nfs
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\*~
+
+
+```
