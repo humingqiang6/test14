@@ -1,4 +1,1 @@
-```
-# Test files
-*.test.js
-```
+Nothing should be ignored since the added file `server_kj39ds.js` is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
