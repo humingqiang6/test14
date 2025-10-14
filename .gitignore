@@ -1,1 +1,22 @@
-Nothing needs to be added to .gitignore for this change list. The added file `backup_script.sh` is a source script file that should be tracked in version control.
+```
+# Puppet-related ignores
+*.pp.bak
+*.rb.bak
+.r10k*
+
+# Common system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+```
+
+Wait, let me reconsider. The only file added is `apache_setup.pp` which appears to be a Puppet configuration file. This is a source code file that should be tracked, and there are no build artifacts, dependencies, or temporary files in the changes. Therefore, no .gitignore rules are needed.
+
+(empty — output nothing)
