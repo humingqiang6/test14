@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appSettings>
+        <add key="AppName" value="MySampleApp" />
+        <add key="Version" value="1.0.0" />
+        <add key="Environment" value="Development" />
+        <add key="MaxConnections" value="100" />
+        <add key="EnableLogging" value="true" />
+    </appSettings>
+    <connectionStrings>
+        <add name="DefaultDB" connectionString="Server=localhost;Database=MySampleAppDb;Trusted_Connection=true;" />
+    </connectionStrings>
+</configuration>
