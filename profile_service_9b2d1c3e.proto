@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package profile_api;
+
+// Service for retrieving user profiles
+service ProfileService {
+  // Get a user profile by user ID
+  rpc GetProfile (GetProfileRequest) returns (GetProfileResponse);
+}
+
+// Request message for GetProfile
+message GetProfileRequest {
+  string user_id = 1; // The unique identifier for the user
+}
+
+// Response message for GetProfile
+message GetProfileResponse {
+  Profile profile = 1; // The user's profile data
+  string error_message = 2; // Optional error message if the request failed
+}
+
+// Message representing a user's profile
+message Profile {
+  string user_id = 1; // The unique identifier for the user
+  string name = 2; // The user's full name
+  string email = 3; // The user's email address
+  int32 age = 4; // The user's age
+  string bio = 5; // A short biography or description
+}
