@@ -1,1 +1,4 @@
-Nothing needs to be added to .gitignore for this change list. The added file `backup_script.sh` is a source file that should be tracked in version control.
+```
+# GraphQL schema files
+schema.graphql
+```
