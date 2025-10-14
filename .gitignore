@@ -1,13 +1,93 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Julia-specific compiled files
+*.ji
+*.cache
 
-# Executable files
-sort_array_2357
+# Julia installation directory
+julia-*/
+
+# Compressed files
+*.tar.gz
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Python-related (if any Python components)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Node.js-related (if any JS components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Virtual environments
+venv/
+.venv/
+env/
+.venv.bak/
+env.bak/
+
+# Build outputs
+build/
+dist/
+target/
+out/
+_output/
+
+# Testing
+*.pytest
+.pytest_cache/
+
+# Gradle
+.gradle/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
 ```
