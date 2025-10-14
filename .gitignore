@@ -1,74 +1,30 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temp files
+# PowerShell cache and temp files
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
+*.pssc
+*.psrc
+*.cdxml
+*.mof
 *.log
 *.tmp
 *.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Python specific
-.mypy_cache/
-.pytest_cache/
+# Editors
+.vscode/
+.idea/
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Logs
+*.log
 ```
