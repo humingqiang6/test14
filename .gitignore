@@ -1,35 +1,25 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.out
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
 
-# Dependencies
-target/
-.libs/
-
-# Editors
-.vscode/
-.idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment variables
 .env
 .env.local
 *.env.*
 
-# Scala specific
-*.jar
-*.war
-*.class
-lib_managed/
-project_target/
-target/
-.DS_Store
-Thumbs.db
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
 ```
+
+Wait, let me reconsider. The only file added is `vm_resource.tf` which is a Terraform source file. This is not a build artifact, dependency, or temporary file - it's source code. Following rule #6, since this appears to be only source/config files without build artifacts, dependencies, or temp files, the output should be empty.
+
+(vm_resource.tf is a Terraform configuration file, which is source code, not an artifact)
