@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided file changes. The added file 'form_abc123.html' is a source code file that should be tracked in version control.
+```
+# Julia-specific compiled files
+*.ji
+*.so
+
+# Julia installation directory
+julia-*/
+julia.tar.gz
+
+# Build artifacts and cache
+*.cache
+share/julia/compiled/
+
+# Test packages and dependencies
+share/julia/test/test_packages/
+share/julia/test/depot/
+
+# Julia config
+share/julia/julia-config.jl
+
+# Compressed files
+*.tar.gz
+```
