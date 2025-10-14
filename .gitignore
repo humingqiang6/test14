@@ -1,17 +1,3 @@
-```
-# Puppet related
-*.pp.bak
-*.rb.bak
+(factorial_56ytz11h.py is a source file, so no ignores needed)
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+(empty — output nothing)
