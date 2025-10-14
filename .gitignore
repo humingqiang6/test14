@@ -1,23 +1,55 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# R-specific ignores
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
+.Rprofile.swp
+.Rapp.history
+.Ruserdata/
 
-# Dependencies
-.venv/
-venv/
+# Compiled files
+*.o
+*.so
+*.dll
+*.dylib
 
-# Logs and temp files
-*.log
+# Dependencies and packages
+library/
+lib/
+libs/
+
+# Temporary files
 *.tmp
 *.swp
+*~
 
-# Environment
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 .env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Build directories
+build/
+dist/
+target/
 ```
