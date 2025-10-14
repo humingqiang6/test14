@@ -1,1 +1,22 @@
-Nothing should be ignored since the added file 'square_function.fs' is a source code file (.fs extension indicates F# source code) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Temp files
+*.tmp
+*.sh.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
