@@ -1,21 +1,4 @@
-```
-# Executable files
-find_max
-
-# Text files (likely output/result files)
-*.txt
-!*.txt  # Keep all .txt files unless specifically ignored below
-
-# Keep source code
-!find_max.cpp
-```
-
-Wait, let me reconsider. The `max_result_88086.txt` appears to be an output/result file that should be ignored, but `find_max.cpp` is source code that should be kept. The `find_max` appears to be an executable that should be ignored.
-
-```
-# Executable files
-find_max
-
-# Generated result files
-max_result_*.txt
+```bash
+# No build artifacts, dependencies, or temp files detected in changes
+# Only backup_script.sh was added, which appears to be a source file
 ```
