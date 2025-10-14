@@ -1,21 +1,5 @@
-```gitignore
-# PowerShell and script files
-*.ps1
-*.tmp
-*.log
+(check_memory.sh is a shell script file, which is source code, so no .gitignore rules needed)
 
-# Environment and config
-.env
-.env.local
-*.env.*
+```bash
 
-# Editors and IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
