@@ -1,3 +1,16 @@
-```zig
+```
+# Executable files
+swap_program
 
+# Temporary files
+temp_file_*.cpp
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 ```
