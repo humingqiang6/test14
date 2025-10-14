@@ -1,3 +1,11 @@
 ```
-# Configuration and source files only - no build artifacts, dependencies, or temp files to ignore
+# R plots and generated images
+Rplots.pdf
+*.pdf
+*.png
+
+# R specific
+.rprofile
+.Rhistory
+.RData
 ```
