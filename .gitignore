@@ -1,1 +1,35 @@
-(empty)
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+target/
+.libs/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Scala specific
+*.jar
+*.war
+*.class
+lib_managed/
+project_target/
+target/
+.DS_Store
+Thumbs.db
+```
