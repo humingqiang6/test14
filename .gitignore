@@ -1,1 +1,5 @@
-(postgres_connect_12345.py is a source file, so no .gitignore rules needed)
+(check_memory.sh is a shell script file, which is a source/config file, so no ignores needed)
+
+```bash
+
+```
