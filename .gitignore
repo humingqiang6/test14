@@ -1,3 +1,15 @@
-(image_processor.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+find_max
 
-(empty - output nothing)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Output files
+output_*.txt
+```
