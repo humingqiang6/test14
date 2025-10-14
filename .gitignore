@@ -1,1 +1,34 @@
-Nothing should be ignored in this case, as only a single source file (`hello.asm`) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.beam
+*.ez
+ebin/
+_build/
+
+# Dependencies
+deps/
+mix.lock
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+cover/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
+```
