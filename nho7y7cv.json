@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-10-14T16:00:14.763861",
+  "users": [
+    {
+      "id": 1,
+      "name": "User I1",
+      "email": "user1@example.com",
+      "active": false,
+      "signup_date": "2025-10-14T16:00:14.763896"
+    },
+    {
+      "id": 2,
+      "name": "User Y2",
+      "email": "user2@example.com",
+      "active": true,
+      "signup_date": "2025-10-14T16:00:14.763905"
+    },
+    {
+      "id": 3,
+      "name": "User B3",
+      "email": "user3@example.com",
+      "active": true,
+      "signup_date": "2025-10-14T16:00:14.763912"
+    },
+    {
+      "id": 4,
+      "name": "User E4",
+      "email": "user4@example.com",
+      "active": true,
+      "signup_date": "2025-10-14T16:00:14.763917"
+    }
+  ],
+  "total_count": 94
+}
