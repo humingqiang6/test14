@@ -1,23 +1,23 @@
-```r
-# R-specific build artifacts
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
-.Rapp.history
-.Rbuildignore
+```
+#PHP specific
+*.php~
+*.php.bak
+*.php.swp
 
-# Dependencies and packages
-library/
-lib/
-.libs/
-
-# Temporary files
+#Temp files
 *.tmp
-*.temp
+*.swp
+*~
+
+#Logs
 *.log
 
-# System files
-.DS_Store
-Thumbs.db
+#Environment
+.env
+.env.local
+.env.
+
+#Editors
+.vscode/
+.idea/
 ```
