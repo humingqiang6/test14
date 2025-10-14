@@ -1,8 +1,1 @@
-```
-# Temp files
-*.tmp
-*.sh
-
-# Logs
-*.log
-```
+Nothing should be ignored based on the provided file changes. The added file `grades_37648.lua` is a source code file that should be tracked in version control.
