@@ -1,5 +1,35 @@
-(linear_regression_model_8274.py is a source code file, and there are no build artifacts, dependencies, or temporary files in the changes, so no .gitignore rules are needed)
+```
+# Configuration and deployment files
+*.yaml
+*.yml
 
-```python
+# Kubernetes/Deployment artifacts
+*.yaml
+!*.yaml  # Allow yaml files unless they are build artifacts
 
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies and build artifacts (if any Python/Node present)
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+target/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
