@@ -1,7 +1,9 @@
 ```
-# SQL query files - assuming generated/intermediate files
-*.sql
+# Environment files
+.env
+.env.local
+*.env.*
 
-# If this is a database project, you might want to be more specific
-# For now, treating as potential build artifact since it follows pattern of generated files
+# Configuration files with sensitive data
+*config*.ini
 ```
